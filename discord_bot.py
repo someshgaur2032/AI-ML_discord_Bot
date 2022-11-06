@@ -10,7 +10,7 @@ import requests
 import discord
 
 # this is my Hugging Face profile link
-API_URL = 'https://api-inference.huggingface.co/models/r3dhummingbird/'
+API_URL = 'https://api-inference.huggingface.co/models/somesh212/'
 
 class MyClient(discord.Client):
     def __init__(self, model_name):
@@ -75,7 +75,7 @@ class MyClient(discord.Client):
 
 def main():
     # DialoGPT-medium-joshua is my model name
-    client = MyClient('DialoGPT-medium-joshua')
+    client = MyClient('\Harry_Potter_botDialoGPT_Som3')
     client.run(os.environ['DISCORD_TOKEN'])
 
 if __name__ == '__main__':
