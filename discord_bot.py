@@ -75,7 +75,7 @@ class MyClient(discord.Client):
 
 def main():
     # DialoGPT-medium-joshua is my model name
-    client = MyClient('\Harry_Potter_botDialoGPT_Som3')
+    client = MyClient('Harry_Potter_botDialoGPT_Som3')
     client.run(os.environ['DISCORD_TOKEN'])
 
 if __name__ == '__main__':
